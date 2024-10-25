@@ -1,0 +1,6 @@
+CREATE TABLE vendor(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(30),
+    contact VARCHAR(30),
+    FOREIGN KEY (car_id) REFERENCES car_detail(id)
+);

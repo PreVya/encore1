@@ -1,0 +1,7 @@
+CREATE TABLE car_detail(
+    id SERIAL PRIMARY KEY,
+    licence_plate VARCHAR(20),
+    manufacturer VARCHAR(20),
+    model VARCHAR(20),
+    FOREIGN KEY (vendorId) REFERENCES vendor(id)
+);

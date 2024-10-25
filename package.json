@@ -7,9 +7,16 @@
   "type": "module",
   "devDependencies": {
     "@types/node": "^20.5.7",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.26.2",
+    "tsx": "^4.19.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "encore.dev": "^1.42.4"
+    "@neondatabase/serverless": "^0.10.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.35.3",
+    "encore.dev": "^1.42.4",
+    "pg": "^8.13.1"
   }
 }
